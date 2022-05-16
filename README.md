@@ -32,7 +32,7 @@ dsn_port = port
 
 ## Testing
 
-As a simple test, I perform a SELECT fron one of my table "MYSCHEM.HOLDING" that I created in IBM DB2 Cloud console (could have been created in this Python script anyway)
+As a simple test, I perform a SELECT from one of my table "MYSCHEM.HOLDING" that I created in IBM DB2 Cloud console (could have been created in this Python script anyway)
 
 select * from MYSCHEM.HOLDING;
 
