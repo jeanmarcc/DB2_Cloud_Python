@@ -20,7 +20,7 @@ My platform:
 ## Connecting parameters
 
 These parameters have to be retrieved from IBM Cloud DB2 (Sign in via IBM id), in "Service credentials" and then click on arrow in front of credential name to reveal these parameters.
-![]https://github.com/johnmarcc/MainframeIBM_DB2_Cloud_Python/blob/fc4abd13ca05d1d95c4d10a3fd25a2b2cfbd6d62/IBMCloud%20credentials.png
+![](https://github.com/johnmarcc/MainframeIBM_DB2_Cloud_Python/blob/fc4abd13ca05d1d95c4d10a3fd25a2b2cfbd6d62/IBMCloud%20credentials.png)
 
 (these parameters are proper to a database and not proper to each user of the database)
 
