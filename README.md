@@ -13,7 +13,7 @@ My platform:
 - DB2 database in IBM cloud
 - Visual Studio Code (in Linux or Windows)
 - Python 3.10
-- module ibm_db (intalled via pip)
+- module ibm_db (installed via pip)
 - Ubuntu [22.04 LTS]
 - VMware (personal free edition) 
 
