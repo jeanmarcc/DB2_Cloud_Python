@@ -36,4 +36,4 @@ As a simple test, I perform a SELECT from one of my table "MYSCHEM.HOLDING" that
 
 select * from MYSCHEM.HOLDING;
 
-![](https://github.com/johnmarcc/MainframeIBM_DB2_Cloud_Python/blob/c97a2464763fb82aa19d2900870a456b9ba5f3f8/selectQueryResult.png)
+![]()
