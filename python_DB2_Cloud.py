@@ -61,7 +61,7 @@ resultCallProc = ibm_db.callproc(conn, 'PROC_GET_NAME', ('1','?'))
 print("The company name related to this ticker is: ",resultCallProc[2])
 
 resultCallProc = ibm_db.callproc(conn, 'PROC_GET_CURRENCY', ('AQN','?'))
-print("The company name related to this ticker is: ",resultCallProc[2])
+print("The currency of ticker ",resultCallProc[1]," and company name related to this ticker is: ",resultCallProc[2])
 
 try:
     conn = ibm_db.close(conn)
