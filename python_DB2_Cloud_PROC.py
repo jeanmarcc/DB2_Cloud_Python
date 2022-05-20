@@ -51,11 +51,11 @@ ibm_db.fetch_both(selectStmt)
 while ibm_db.fetch_row(selectStmt) != False:
    print (ibm_db.result(selectStmt, "TICKER_CODE"),"---",ibm_db.result(selectStmt, "NAME"),ibm_db.result(selectStmt, "CURRENCY"))
 
-# Now we do a call to a DB2 PROCEDURE that returns the full name of a Ticker
-resultCallProc = ibm_db.callproc(conn, 'PROC_GET_NAME', ('1','?'))
+print ("Now we call the Procedure")
+resultCallProc = ibm_db.callproc(conn, 'D85F99E8.PROC_GET_NAME', ('1','?'))
 print("The company name related to this ticker is: ",resultCallProc[2])
 
-resultCallProc = ibm_db.callproc(conn, 'PROC_GET_CURRENCY', ('AQN','?'))
+resultCallProc = ibm_db.callproc(conn, 'D85F99E8.PROC_GET_CURRENCY', ('AQN','?'))
 print("The currency of ticker ",resultCallProc[1]," and company name related to this ticker is: ",resultCallProc[2])
 
 try:
