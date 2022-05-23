@@ -5,7 +5,7 @@ Python script launched on a local computer allowing to connect to and to work wi
 
 This Python program allows to connect and perfom SQL statements from a local computer to a DB2 database which is in IBM Cloud
 
-My local computer is a Windows 10 laptop and I tested this Python program in a Linux Ubuntu disto inside a VMware in my local Windows 10
+My local computer is a Windows 10 laptop and I tested this Python program in a Linux Ubuntu distro inside a VMware in my local Windows 10
 
 ## Prerequsites
 
