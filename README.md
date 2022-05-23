@@ -7,7 +7,7 @@ This Python program allows to connect and perfom SQL statements from a local com
 
 My local computer is a Windows 10 laptop and I tested this Python program in a Linux Ubuntu distro inside a VMware in my local Windows 10
 
-## Prerequsites
+## Prerequisites
 
 My platform:
 - DB2 database in IBM cloud
