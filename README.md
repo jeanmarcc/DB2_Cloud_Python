@@ -1,11 +1,11 @@
 # MainframeIBM_DB2_Cloud_Python
-Python script launched on a local computer allowing to connect to and to work with a DB2 database in the IBM cloud. 
+Python script executed on a local computer allowing to connect to and to work with a DB2 database in the IBM cloud 
 
 ## Getting Started
 
-This Python program allows to connect and perfom SQL statements from a local computer to a DB2 database which is in IBM Cloud
+This Python program allows to connect and perfom SQL statements from a local computer to a DB2 database in IBM Cloud
 
-My local computer is a Windows 10 laptop and I tested this Python program in a Linux Ubuntu distro inside a VMware in my local Windows 10
+My local computer is a Windows 10 laptop and I tested this Python program in a Linux Ubuntu distro inside a VMware on my local Windows 10
 
 ## Prerequisites
 
@@ -32,7 +32,7 @@ dsn_port = port
 
 ## Testing
 
-As a simple test, I perform a SELECT from one of my table "MYSCHEM.HOLDING" that I created in IBM DB2 Cloud console (could have been created in this Python script anyway)
+As a simple test, I perform a SELECT from table "MYSCHEM.HOLDING" that I created in IBM DB2 Cloud console (could have been created in this Python script anyway)
 
 select * from MYSCHEM.HOLDING;
 
