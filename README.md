@@ -1,4 +1,4 @@
-# Mainframe IBM DB2_Cloud_Python
+# Mainframe IBM / DB2_Cloud_Python
 Python script executed on a local computer allowing to connect to and to work with a DB2 database in the IBM cloud 
 
 ## Getting Started
